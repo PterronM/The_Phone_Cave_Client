@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { getOneMobileId } from "../services/mobile";
 
 
+
 function MobileDetails() {
 
 
