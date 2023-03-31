@@ -32,7 +32,7 @@ function Home() {
         <div className="d-flex justify-content-between flex-wrap p-4">
           {allMobile.map((eachMobile) => {
             return (
-              <p key={eachMobile._id}>
+              <span key={eachMobile._id}>
                 <Card style={{ width: "18rem" }}>
                   <Card.Body>
                     <Card.Title>{eachMobile.name}</Card.Title>
@@ -42,7 +42,7 @@ function Home() {
                     </Link>
                   </Card.Body>
                 </Card>
-              </p>
+              </span>
             );
           })}
         </div>
